@@ -24,7 +24,10 @@ The abovementioned and more is elaborated and described in the Neos Ltd. tech bl
     │   ├── chunks                    <- Directory where all the calculated audio chunks are located
     │   ├── chunks_normalized         <- Directory where all the normalized audio chunks are located
     │   ├── VRH-121 - 27.05.2022.wav  <- Audio input example
+    │   ├── VRH-121 - 27.05.2022.srt  <- Output of closecaptioning.ipynb
     │   ├── banner.png                <- Banner for this project
+    │   ├── cc_demo.gif               <- Demonstration of playing the audio example with the generated .srt
+    │   ├── cc_tmp.wav                <- Temporary 2500 ms chunk of audio for closecaptioning.ipynb
     │   ├── cloud_mask.png            <- Image that represents the mask for generated WordCloud object
     │   └── neos_logo.png             <- Neos Ltd. logo image
     │
@@ -32,7 +35,10 @@ The abovementioned and more is elaborated and described in the Neos Ltd. tech bl
     ├── README.md
     │
     ├── audioprocessing.ipynb         <- Jupyter notebook for audio input processing and transcribing
-    ├── closedcaptioning.ipynb        <- Jupyter notebook for audio input processing and generating .srt file 
+    ├── closedcaptioning.ipynb        <- Jupyter notebook for audio input processing and generating .srt file
+    ├── requirements.txt              <- All Python libraries that notebooks depend on
+    ├── transcription.txt             <- Output of audioprocessing.ipynb, input for wordcloud.ipynb
+    ├── transcription_normalized.txt  <- Output of audioprocessing.ipynb, after normalizing audio to -3dB 
     └── wordcloud.ipynb               <- Jupyter notebook for transcription processing using NLP methods and   
                                          generating word cloud image.
 
