@@ -45,7 +45,7 @@ The abovementioned and more is elaborated and described in the Neos Ltd. tech bl
 ## Resources
 <hr>
 
-- [Blog-post-TBA](https://neos.hr)
+- [Blog post](https://www.neos.hr/neos-blog-can-ai-understand-croatian-parliment-asr-model/)
 - [CLASSLA Huggingface site](https://huggingface.co/classla)
 - [CLASSLA Python package](https://github.com/clarinsi/classla)
 - [WordCloud Python package](https://github.com/amueller/word_cloud)
