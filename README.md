@@ -11,7 +11,7 @@ A case study of automatic speech recognition (ASR) in Croatian using pretrained 
 
 After demonstrating the approach to the problem of pre-processing the raw audio input and getting trascription, closed captioning and construction of word cloud use-cases are shown using most recent Croatian NLP support to date.
 
-The abovementioned and more is elaborated and described in the Neos Ltd. tech blog available at [Blog-post-TBA](https://neos.hr).
+The abovementioned and more is elaborated and described in the Neos Ltd. tech blog available at [Neos Tech Blog](https://www.neos.hr/neos-blog-can-ai-understand-croatian-parliment-asr-model/).
 
 <br>
 
